@@ -9,3 +9,10 @@ body {
 h1 {
   color: orange;
 }
+
+@media (min-width: 900px) {
+   .calls-out-container {
+      display: flex;
+      justify-content: space-between;
+   }
+}
